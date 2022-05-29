@@ -1,0 +1,131 @@
+body{
+    margin:0 0;
+}
+
+nav{
+    background-color:lightblue;
+    height: 40px;
+}
+.nav form{
+    height: 30px;
+}
+.lab{
+    font-size: large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+article{
+    background-size: cover;
+    width: 100vw;
+    background-image: url("https://thumbs.dreamstime.com/z/sfondo-del-cerchio-tecnologico-concetto-cyberspazio-contesto-astratto-della-tecnologia-di-innovazione-digitale-ciberspazio-154413700.jpg");
+}
+.utente{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 2px solid lightslategrey;
+    border-radius: 40px;
+    padding: 15px;
+    margin-top: 15px;
+} 
+.nome{
+    margin-bottom: 15px;
+    display: flex;
+   justify-content: center;
+
+}
+.nome .utente p{
+    font-size: 40px;
+    background-color: lightblue;
+    border-radius: 40px;
+}
+.utente img{
+    width: 300px;
+    height: 200px;
+}
+.color{
+    display: none;
+}
+.cuore{
+    display:flex;
+    
+}
+.one{
+    display: flex;
+    justify-content: center;
+     
+}
+
+.a{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+
+}
+.conteiner{
+    display: flex;
+    
+    justify-content: space-between;
+    width: 70vw;
+    
+    flex-wrap: wrap;
+}  
+.super{
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+}
+.hidden{
+    display: none;
+}
+
+.one img{
+    width: 30px;
+    height:30px;
+}
+
+.uno,.due,.tre,.quattro,.cinque,.sei,.sette,.otto{
+    display: flex;
+    border: 2px solid lightgrey;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    width: 250px;
+   
+
+}
+
+
+img{
+    width: 250px;
+    height: 250px;
+    ;
+}
+.log {
+    display: flex;
+   justify-content: space-between;
+}
+.log a{
+    font-size: 22px;
+    margin-right: 40px;
+   
+}
+.cuore{
+    width: 30px;
+    height: 30px;
+}
+.super4{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70vw; 
+    justify-content: space-between;
+  
+}
+.super2{
+    display: flex;
+    justify-content: center;
+
+}
+.img_super2{
+    display: flex;
+}
